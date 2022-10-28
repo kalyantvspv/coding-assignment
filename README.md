@@ -1,1 +1,1 @@
-# coding-assignment
+# please read the js file differently
