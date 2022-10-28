@@ -10,7 +10,10 @@ async function func(){
     const val = data.prizes[0];
     var yea = document.getElementById("input1").value;
     var categor = document.getElementById("input2").value;
-
+    var button = document.getElementById("sub");
+    
+    button.addEventListener("click",function()
+    {
     for(var i=0;i<val.length;i++)
     {
         if(val.year == yea  && val.category==categor)
@@ -31,6 +34,7 @@ async function func(){
             }
         }
     }
+})
 
 }
 func();
